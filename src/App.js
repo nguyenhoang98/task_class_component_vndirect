@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import TaskList from "./Components/TaskList/TaskList";
 import Button from "./Components/Button/Button";
 import TaskForm from "./Components/TaskForm/TaskForm";
+import Control from "./Components/Control/Control";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 class App extends Component {
@@ -18,12 +19,16 @@ class App extends Component {
         description: "",
         status: true,
       },
+      filter: 0,
+      sortTask: 0,
     };
     this.addTask = this.addTask.bind(this);
     this.openForm = this.openForm.bind(this);
     this.closeForm = this.closeForm.bind(this);
     this.onDelTask = this.onDelTask.bind(this);
     this.editForm = this.editForm.bind(this);
+    this.handleOnchangeFilter = this.handleOnchangeFilter.bind(this);
+    this.handleOnchangeSort = this.handleOnchangeSort.bind(this);
   }
   componentDidUpdate() {
     localStorage.setItem("class_tasks", JSON.stringify(this.state.tasks));
@@ -112,11 +117,57 @@ class App extends Component {
       },
     });
   }
+  handleOnchangeFilter(e) {
+    this.setState({
+      filter: e.target.value,
+    });
+  }
+  handleOnchangeSort(e) {
+    this.setState({
+      sortTask: e.target.value,
+    });
+  }
   render() {
-    const { tasks, edit } = this.state;
+    let { tasks, edit, filter, sortTask } = this.state;
+    if (filter == 0) {
+      tasks = tasks.filter((value) => {
+        return value;
+      });
+    }
+    if (filter == 1) {
+      tasks = tasks.filter((value) => {
+        return value.status === true;
+      });
+    }
+    if (filter == -1) {
+      tasks = tasks.filter((value) => {
+        return value.status === false;
+      });
+    }
+    if (sortTask == 1) {
+      console.log("Hello");
+      tasks.sort(function (a, b) {
+        var x = a.name.toLowerCase();
+        var y = b.name.toLowerCase();
+        if (x < y) {
+          return -1;
+        }
+        if (x > y) {
+          return 1;
+        }
+        return 0;
+      });
+    }
+    console.log(tasks);
     return (
       <div className="app">
         <Header />
+        <Control
+          filter={filter}
+          sortTask={sortTask}
+          handleOnchangeFilter={this.handleOnchangeFilter}
+          handleOnchangeSort={this.handleOnchangeSort}
+        />
         <TaskList
           tasks={tasks}
           handleOnDelTask={this.onDelTask}

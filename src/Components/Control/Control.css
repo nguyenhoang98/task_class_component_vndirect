@@ -1,0 +1,11 @@
+.control{
+    width:80% ;
+    height: auto;
+    margin:auto ;
+    text-align:right ;
+}
+select{
+    width:150px; 
+    height: auto;
+    padding:3px ;
+}
