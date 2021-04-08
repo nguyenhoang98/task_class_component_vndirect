@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/task_class_component_vndirect/static/css/main.91e5a7ad.chunk.css",
-    "main.js": "/task_class_component_vndirect/static/js/main.282d5f12.chunk.js",
-    "main.js.map": "/task_class_component_vndirect/static/js/main.282d5f12.chunk.js.map",
-    "runtime-main.js": "/task_class_component_vndirect/static/js/runtime-main.3f6a44d9.js",
-    "runtime-main.js.map": "/task_class_component_vndirect/static/js/runtime-main.3f6a44d9.js.map",
+    "main.css": "/task_class_component_vndirect/static/css/main.5fff91c5.chunk.css",
+    "main.js": "/task_class_component_vndirect/static/js/main.df7f4e2b.chunk.js",
+    "main.js.map": "/task_class_component_vndirect/static/js/main.df7f4e2b.chunk.js.map",
+    "runtime-main.js": "/task_class_component_vndirect/static/js/runtime-main.0affd65e.js",
+    "runtime-main.js.map": "/task_class_component_vndirect/static/js/runtime-main.0affd65e.js.map",
     "static/css/2.3f6a4e7d.chunk.css": "/task_class_component_vndirect/static/css/2.3f6a4e7d.chunk.css",
-    "static/js/2.358dc7a4.chunk.js": "/task_class_component_vndirect/static/js/2.358dc7a4.chunk.js",
-    "static/js/2.358dc7a4.chunk.js.map": "/task_class_component_vndirect/static/js/2.358dc7a4.chunk.js.map",
-    "static/js/3.65f4d2c4.chunk.js": "/task_class_component_vndirect/static/js/3.65f4d2c4.chunk.js",
-    "static/js/3.65f4d2c4.chunk.js.map": "/task_class_component_vndirect/static/js/3.65f4d2c4.chunk.js.map",
+    "static/js/2.e70727e7.chunk.js": "/task_class_component_vndirect/static/js/2.e70727e7.chunk.js",
+    "static/js/2.e70727e7.chunk.js.map": "/task_class_component_vndirect/static/js/2.e70727e7.chunk.js.map",
+    "static/js/3.f2af1e1f.chunk.js": "/task_class_component_vndirect/static/js/3.f2af1e1f.chunk.js",
+    "static/js/3.f2af1e1f.chunk.js.map": "/task_class_component_vndirect/static/js/3.f2af1e1f.chunk.js.map",
     "index.html": "/task_class_component_vndirect/index.html",
     "static/css/2.3f6a4e7d.chunk.css.map": "/task_class_component_vndirect/static/css/2.3f6a4e7d.chunk.css.map",
-    "static/css/main.91e5a7ad.chunk.css.map": "/task_class_component_vndirect/static/css/main.91e5a7ad.chunk.css.map",
-    "static/js/2.358dc7a4.chunk.js.LICENSE.txt": "/task_class_component_vndirect/static/js/2.358dc7a4.chunk.js.LICENSE.txt"
+    "static/css/main.5fff91c5.chunk.css.map": "/task_class_component_vndirect/static/css/main.5fff91c5.chunk.css.map",
+    "static/js/2.e70727e7.chunk.js.LICENSE.txt": "/task_class_component_vndirect/static/js/2.e70727e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f6a44d9.js",
+    "static/js/runtime-main.0affd65e.js",
     "static/css/2.3f6a4e7d.chunk.css",
-    "static/js/2.358dc7a4.chunk.js",
-    "static/css/main.91e5a7ad.chunk.css",
-    "static/js/main.282d5f12.chunk.js"
+    "static/js/2.e70727e7.chunk.js",
+    "static/css/main.5fff91c5.chunk.css",
+    "static/js/main.df7f4e2b.chunk.js"
   ]
 }
