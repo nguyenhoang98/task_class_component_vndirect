@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+.btn{
+  border:none ;
+  outline: none;
+  background: white;
+  color:white ;
+  padding:10px 16px ;
+}

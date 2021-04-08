@@ -1,0 +1,19 @@
+
+.tasklist{
+    width:80% ;
+    height: auto;
+    margin:auto  ;
+}
+.tasklist__table{
+    width:100% ;
+    height: auto;
+    border-collapse: collapse;
+}
+.tasklist__table td{
+     text-align:Center ;
+}
+.tasklist__table tr ,
+.tasklist__table th , 
+.tasklist__table td{
+    border:1px solid #ccc ;
+}

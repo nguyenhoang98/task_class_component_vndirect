@@ -1,0 +1,19 @@
+
+.red{
+    background : red ;
+    color:white ;
+    padding:3px ;
+    border-radius: 3px;
+}
+.blue{
+    background : blue ;
+    color:white ;
+    padding:3px ;
+    border-radius: 3px;
+}
+.btn-edit{
+    background: blue;
+}
+.btn-delTask{
+    background: red;
+}
